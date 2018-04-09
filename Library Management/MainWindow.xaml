@@ -75,7 +75,7 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0">
-                <ToggleButton  IsChecked="{Binding IsBorrowBook}">
+                <ToggleButton  IsChecked="{Binding IsBorrowBook}" x:Name="tgbBorrowBook" Click="tgbBorrowBook_Click">
                     <StackPanel>
                         <iconPacks:PackIconOcticons Width="54"
                                             Height="54"
@@ -87,7 +87,7 @@
                 </ToggleButton>
             </Grid>
             <Grid Grid.Column="1">
-                <ToggleButton IsChecked="{Binding IsBook}">
+                <ToggleButton IsChecked="{Binding IsBook}" x:Name="tgbBooks" Click="tgbBooks_Click">
                     <StackPanel>
                         <iconPacks:PackIconModern Width="54"
                                             Height="54"
@@ -126,7 +126,8 @@
         <!--#endregion-->
 
         <Grid Grid.Row="1">
-            <uc:BorrowBook></uc:BorrowBook>
+            <uc:BorrowBook x:Name="ucBorrowBook"></uc:BorrowBook>
+            <uc:Books x:Name="ucBooks" Visibility="Hidden"></uc:Books>
         </Grid>
         
     </Grid>

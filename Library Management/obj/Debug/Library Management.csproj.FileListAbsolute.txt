@@ -27,3 +27,5 @@ C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\bin\Debug
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\BorrowBook.g.cs
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\BorrowBook.baml
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Books.g.cs
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Books.baml

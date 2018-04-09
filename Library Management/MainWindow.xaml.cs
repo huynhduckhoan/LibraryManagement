@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,9 +22,7 @@ namespace Library_Management
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     /// 
-
-
-
+        
     public partial class MainWindow : MetroWindow, INotifyPropertyChanged
     {
 
@@ -42,6 +41,19 @@ namespace Library_Management
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        private void tgbBorrowBook_Click(object sender, RoutedEventArgs e)
+        {
+            ucBorrowBook.Visibility = Visibility.Visible;
+            ucBooks.Visibility = Visibility.Hidden;
+        }
+
+        private void tgbBooks_Click(object sender, RoutedEventArgs e)
+        {
+            ucBorrowBook.Visibility = Visibility.Hidden;
+            ucBooks.Visibility = Visibility.Visible;
+        }
+
         protected virtual void OnPropertyChanged(string newName)
         {
             if (PropertyChanged != null)
@@ -51,10 +63,15 @@ namespace Library_Management
         }
         #endregion
 
+        #region SQL Connect 
+        SqlConnection conn = DBSQLServerUtils.DBConnection();
+        #endregion
+
         public MainWindow()
         {
             InitializeComponent();
-            // Test ToggleButton
+
+            //ToggleButton Binding
             this.DataContext = this;
             isBorrowBook = true;
         }
