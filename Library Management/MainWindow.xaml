@@ -1,0 +1,134 @@
+﻿<Controls:MetroWindow  x:Class="Library_Management.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_Management"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        xmlns:uc="clr-namespace:Library_Management"
+        ShowIconOnTitleBar="True"       
+        Icon="./Resource/icon.png"                
+        Title="Quản Lý Sách Thư Viện" Height="600" Width="1000">
+    
+    <!--#region  Setting Commands Toolbar-->
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+
+            <Button>
+                <iconPacks:PackIconMaterial Kind="ExitToApp" />
+            </Button>
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconFontAwesome Kind="UsersSolid" />
+                    <TextBlock Margin="4 0 0 0"
+                   VerticalAlignment="Center"
+                   Text="THÀNH VIÊN" />
+                </StackPanel>
+            </Button>
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconModern Kind="Settings" />
+                    <TextBlock Margin="4 0 0 0"
+                   VerticalAlignment="Center"
+                   Text="CÀI ĐẶT" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="github" Click="github_Click">
+                <iconPacks:PackIconSimpleIcons Kind="GitHub" />
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <!--#endregion-->
+
+    
+    <!--#region Content App-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <!--#region Header Function-->
+        <Grid Grid.Row="0">
+            <Grid.Resources>
+                <Style TargetType="ToggleButton">
+                    <Setter Property="Width" Value="86"></Setter>
+                    <Setter Property="Height" Value="86"></Setter>
+                    <Setter Property="Margin" Value="7"></Setter>
+                    <Setter Property="Background" Value="#3498db"></Setter>
+                    <Setter Property="BorderBrush" Value="#3498db"></Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Background" Value="#2980b9" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <ToggleButton  IsChecked="{Binding IsBorrowBook}">
+                    <StackPanel>
+                        <iconPacks:PackIconOcticons Width="54"
+                                            Height="54"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Kind="CreditCard" Foreground="White"/>
+                        <Label Content="Mượn Sách" FontSize="12" HorizontalContentAlignment="Center" Foreground="White" />
+                    </StackPanel>
+                </ToggleButton>
+            </Grid>
+            <Grid Grid.Column="1">
+                <ToggleButton IsChecked="{Binding IsBook}">
+                    <StackPanel>
+                        <iconPacks:PackIconModern Width="54"
+                                            Height="54"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Kind="BookHardcoverOpen" Foreground="White"/>
+                        <Label Content="Sách" FontSize="12" HorizontalContentAlignment="Center" Foreground="White" />
+                    </StackPanel>
+                </ToggleButton>
+            </Grid>
+            <Grid Grid.Column="2">
+                <ToggleButton IsChecked="{Binding IsStudent}">
+                    <StackPanel>
+                        <iconPacks:PackIconMaterial Width="54"
+                                            Height="54"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Kind="AccountEdit" Foreground="White"/>
+                        <Label Content="Sinh Viên" FontSize="12" HorizontalContentAlignment="Center" Foreground="White" />
+                    </StackPanel>
+                </ToggleButton>
+            </Grid>
+            <Grid Grid.Column="3">
+                <ToggleButton IsChecked="{Binding IsTransgress}">
+                    <StackPanel>
+                        <iconPacks:PackIconFontAwesome Width="54"
+                                            Height="54"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Kind="ExclamationTriangleSolid" Foreground="White"/>
+                        <Label Content="Vi Phạm" FontSize="12" HorizontalContentAlignment="Center" Foreground="White" />
+                    </StackPanel>
+                </ToggleButton>
+            </Grid>
+        </Grid>
+        <!--#endregion-->
+
+        <Grid Grid.Row="1">
+            <uc:BorrowBook></uc:BorrowBook>
+        </Grid>
+        
+    </Grid>
+    <!--#endregion-->
+</Controls:MetroWindow>
