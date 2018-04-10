@@ -48,6 +48,7 @@ namespace Library_Management
                     Book_Info = reader[3].ToString()
                     });
             }
+            conn.Close();
         }
 
         public class Book
@@ -56,6 +57,35 @@ namespace Library_Management
             public string Book_Name { get; set; }
             public string Book_Author { get; set; }
             public string Book_Info { get; set; }
+        }
+
+        public void refreshData()
+        {
+            book.Clear();
+            selectSQLtoArray();
+            lvBooks.Items.Refresh();
+        }
+
+        private void addBook_Click(object sender, RoutedEventArgs e)
+        {
+            BooksInfo bookInfoWindows = new BooksInfo(null,"add");
+            bookInfoWindows.Owner = Window.GetWindow(this);
+            bookInfoWindows.Show();
+        }
+        private void delBook_Click(object sender, RoutedEventArgs e)
+        {
+            int id = lvBooks.Items.IndexOf(lvBooks.SelectedItem);
+            BooksInfo bookInfoWindows = new BooksInfo(book[id], "del");
+            bookInfoWindows.Owner = Window.GetWindow(this);
+            bookInfoWindows.Show();
+        }
+
+        private void editBook_Click(object sender, RoutedEventArgs e)
+        {
+            int id = lvBooks.Items.IndexOf(lvBooks.SelectedItem);
+            BooksInfo bookInfoWindows = new BooksInfo(book[id],"edit");
+            bookInfoWindows.Owner = Window.GetWindow(this);
+            bookInfoWindows.Show();
         }
     }
 }

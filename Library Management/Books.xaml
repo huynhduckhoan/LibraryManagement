@@ -10,15 +10,16 @@
             <ListView Margin="10" Name="lvBooks">
                 <ListView.ContextMenu>
                     <ContextMenu>
-                        <MenuItem Header="Thêm lượt mượn" />
-                        <MenuItem Header="Đã trả sách"/>
+                        <MenuItem x:Name="addBook" Header="Thêm sách" Click="addBook_Click"  />
+                        <MenuItem x:Name="delBook" Header="Xóa sách" Click="delBook_Click" />
+                        <MenuItem x:Name="editBook" Header="Sửa thông tin sách" Click="editBook_Click"/>
                     </ContextMenu>
                 </ListView.ContextMenu>
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Tên sách" Width="200" DisplayMemberBinding="{Binding Book_Name}" />
                         <GridViewColumn Header="Tác giả" Width="200" DisplayMemberBinding="{Binding Book_Author}" />
-                        <GridViewColumn Header="Thông tin khác" Width="565"  DisplayMemberBinding="{Binding Book_Info}" />
+                        <GridViewColumn Header="Thông tin khác" Width="564"  DisplayMemberBinding="{Binding Book_Info}" />
                     </GridView>
                 </ListView.View>
             </ListView>

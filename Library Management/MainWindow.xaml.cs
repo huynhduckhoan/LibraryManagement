@@ -41,7 +41,13 @@ namespace Library_Management
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-
+        protected virtual void OnPropertyChanged(string newName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(newName));
+            }
+        }
         private void tgbBorrowBook_Click(object sender, RoutedEventArgs e)
         {
             ucBorrowBook.Visibility = Visibility.Visible;
@@ -54,13 +60,6 @@ namespace Library_Management
             ucBooks.Visibility = Visibility.Visible;
         }
 
-        protected virtual void OnPropertyChanged(string newName)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(newName));
-            }
-        }
         #endregion
 
         #region SQL Connect 

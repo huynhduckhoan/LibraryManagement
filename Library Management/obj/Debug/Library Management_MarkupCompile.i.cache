@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\App.xaml
-31746592808
+41745372912
 
-121199406123
+13-1054938118
 171457055612
-Books.xaml;BorrowBook.xaml;MainWindow.xaml;
+Books.xaml;BooksInfo.xaml;BorrowBook.xaml;MainWindow.xaml;
 
-False
+True
 

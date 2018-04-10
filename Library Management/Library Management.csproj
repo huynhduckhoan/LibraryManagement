@@ -70,6 +70,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="BooksInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BorrowBook.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -84,6 +88,9 @@
     </Compile>
     <Compile Include="Books.xaml.cs">
       <DependentUpon>Books.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BooksInfo.xaml.cs">
+      <DependentUpon>BooksInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="BorrowBook.xaml.cs">
       <DependentUpon>BorrowBook.xaml</DependentUpon>
