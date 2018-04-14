@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="Library_Management.Students"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Management"
+             mc:Ignorable="d" >
+    <Grid>
+        <Border BorderBrush="Gainsboro" BorderThickness="1" Margin="5">
+            <ListView Margin="10" Name="lvStudents">
+                <ListView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="addStudent" Header="Thêm sinh viên" Click="addStudent_Click"  />
+                        <MenuItem x:Name="delStudent" Header="Xóa sinh viên" Click="delStudent_Click" />
+                        <MenuItem x:Name="editStudent" Header="Sửa thông tin sinh viên" Click="editStudent_Click"/>
+                    </ContextMenu>
+                </ListView.ContextMenu>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Tên sách" Width="200" DisplayMemberBinding="{Binding Student_Name}" />
+                        <GridViewColumn Header="Tác giả" Width="200" DisplayMemberBinding="{Binding Student_Class}" />
+                        <GridViewColumn Header="Thông tin khác" Width="564"  DisplayMemberBinding="{Binding Student_Info}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
+    </Grid>
+</UserControl>

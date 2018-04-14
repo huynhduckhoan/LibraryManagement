@@ -22,7 +22,15 @@ namespace Library_Management
     public partial class Books : UserControl
     {
         SqlConnection conn;
-        List<Book> book = new List<Book>();
+        List<Book> books = new List<Book>();
+
+        public class Book
+        {
+            public int PkBook_ID { get; set; }
+            public string Book_Name { get; set; }
+            public string Book_Author { get; set; }
+            public string Book_Info { get; set; }
+        }
         public Books()
         {
             InitializeComponent();
@@ -30,7 +38,7 @@ namespace Library_Management
             conn = DBSQLServerUtils.DBConnection();
 
             selectSQLtoArray();
-            lvBooks.ItemsSource = book;
+            lvBooks.ItemsSource = books;
         }
 
         public void selectSQLtoArray()
@@ -41,7 +49,7 @@ namespace Library_Management
             SqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                book.Add(new Book() {
+                books.Add(new Book() {
                     PkBook_ID = Convert.ToInt32(reader[0].ToString()),
                     Book_Name = reader[1].ToString(),
                     Book_Author = reader[2].ToString(),
@@ -51,17 +59,9 @@ namespace Library_Management
             conn.Close();
         }
 
-        public class Book
-        {
-            public int PkBook_ID { get; set; }
-            public string Book_Name { get; set; }
-            public string Book_Author { get; set; }
-            public string Book_Info { get; set; }
-        }
-
         public void refreshData()
         {
-            book.Clear();
+            books.Clear();
             selectSQLtoArray();
             lvBooks.Items.Refresh();
         }
@@ -75,7 +75,7 @@ namespace Library_Management
         private void delBook_Click(object sender, RoutedEventArgs e)
         {
             int id = lvBooks.Items.IndexOf(lvBooks.SelectedItem);
-            BooksInfo bookInfoWindows = new BooksInfo(book[id], "del");
+            BooksInfo bookInfoWindows = new BooksInfo(books[id], "del");
             bookInfoWindows.Owner = Window.GetWindow(this);
             bookInfoWindows.Show();
         }
@@ -83,7 +83,7 @@ namespace Library_Management
         private void editBook_Click(object sender, RoutedEventArgs e)
         {
             int id = lvBooks.Items.IndexOf(lvBooks.SelectedItem);
-            BooksInfo bookInfoWindows = new BooksInfo(book[id],"edit");
+            BooksInfo bookInfoWindows = new BooksInfo(books[id],"edit");
             bookInfoWindows.Owner = Window.GetWindow(this);
             bookInfoWindows.Show();
         }

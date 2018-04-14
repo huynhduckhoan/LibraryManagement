@@ -99,7 +99,7 @@
                 </ToggleButton>
             </Grid>
             <Grid Grid.Column="2">
-                <ToggleButton IsChecked="{Binding IsStudent}">
+                <ToggleButton IsChecked="{Binding IsStudent}" x:Name="tgbStudents" Click="tgbStudents_Click" >
                     <StackPanel>
                         <iconPacks:PackIconMaterial Width="54"
                                             Height="54"
@@ -128,6 +128,7 @@
         <Grid Grid.Row="1">
             <uc:BorrowBook x:Name="ucBorrowBook"></uc:BorrowBook>
             <uc:Books x:Name="ucBooks" Visibility="Hidden"></uc:Books>
+            <uc:Students x:Name="ucStudents" Visibility="Hidden"></uc:Students>
         </Grid>
         
     </Grid>

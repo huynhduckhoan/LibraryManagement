@@ -30,3 +30,8 @@ C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Library Management.csproj.CopyComplete
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Library Management.exe
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Library Management.pdb
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Library Management.csprojResolveAssemblyReference.cache
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Students.g.cs
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Students.baml
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\StudentsInfo.g.cs
+C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\StudentsInfo.baml

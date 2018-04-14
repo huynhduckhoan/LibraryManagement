@@ -50,15 +50,23 @@ namespace Library_Management
         }
         private void tgbBorrowBook_Click(object sender, RoutedEventArgs e)
         {
-            ucBorrowBook.Visibility = Visibility.Visible;
+            ucStudents.Visibility = Visibility.Hidden;
             ucBooks.Visibility = Visibility.Hidden;
+            ucBorrowBook.Visibility = Visibility.Visible;
         }
-
         private void tgbBooks_Click(object sender, RoutedEventArgs e)
         {
-            ucBorrowBook.Visibility = Visibility.Hidden;
+            ucStudents.Visibility = Visibility.Hidden;
             ucBooks.Visibility = Visibility.Visible;
+            ucBorrowBook.Visibility = Visibility.Visible;
         }
+        private void tgbStudents_Click(object sender, RoutedEventArgs e)
+        {
+            ucStudents.Visibility = Visibility.Visible;
+            ucBooks.Visibility = Visibility.Hidden;
+            ucBorrowBook.Visibility = Visibility.Visible;
+        }
+
 
         #endregion
 
