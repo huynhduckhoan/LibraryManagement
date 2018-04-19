@@ -15,7 +15,7 @@ namespace Library_Management
             // Data Source=KHOAN\SQLEXPRESS;Initial Catalog=LibraryManagement;Persist Security Info=True;User ID=sa;Password=123
             //
             string connString = @"Data Source=" + datasource + ";Initial Catalog="
-                        + database + ";Persist Security Info=True;User ID=" + username + ";Password=" + password;
+                        + database + ";Persist Security Info=True;User ID=" + username + ";Password=" + password + ";MultipleActiveResultSets=True";
 
             SqlConnection conn = new SqlConnection(connString);
 
@@ -24,7 +24,7 @@ namespace Library_Management
 
         public static SqlConnection DBConnection()
         {
-            string datasource = @"KHOAN\SQLEXPRESS";
+            string datasource = @"WINDOWS\SQLEXPRESS";
 
             string database = "LibraryManagement";
             string username = "sa";

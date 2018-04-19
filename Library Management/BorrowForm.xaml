@@ -1,0 +1,102 @@
+﻿<Controls:MetroWindow x:Class="Library_Management.BorrowForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_Management"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="BorrowForm" Height="333.621" Width="497.414">
+    <Grid>
+        <Border Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="tbTitleBookInfo" Text="CHO MƯỢN SÁCH" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+
+                <Grid Grid.Row="1">
+                    <StackPanel  >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label>Sinh viên:</Label>
+                            <Controls:SplitButton  
+                                x:Name="drStudent" 
+                                Grid.Column="1" 
+                                ItemsSource="{Binding Book_Name}"
+                           >
+                            </Controls:SplitButton>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"></RowDefinition>
+                        <RowDefinition Height="35"></RowDefinition>
+                        <RowDefinition Height="35"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel  >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                <ColumnDefinition Width="400"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label>Sách cần mượn:</Label>
+                            <Controls:SplitButton  
+                                x:Name="drBorrowBook" 
+                                Grid.Column="1" 
+                                ItemsSource="{Binding Book_Name}"
+                                SelectedIndex="-1"
+                           >
+                            </Controls:SplitButton>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                <ColumnDefinition Width="400"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Controls:SplitButton  
+                                x:Name="drBorrowBook1" 
+                                Grid.Column="1" 
+                                ItemsSource="{Binding Book_Name}"
+                                SelectedIndex="-1"
+                           >
+                            </Controls:SplitButton>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                <ColumnDefinition Width="400"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Controls:SplitButton  
+                                x:Name="drBorrowBook2" 
+                                Grid.Column="1" 
+                                ItemsSource="{Binding Book_Name}"
+                                SelectedIndex="-1"
+                           >
+                            </Controls:SplitButton>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <!--<Button Content="Thêm sách" Grid.Column="2" Width="60" Padding="3" Margin="3"></Button>-->
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Button x:Name="btnSubmitBookInfo" Width="80" Margin="10" Click="btnSubmitBookInfo_Click">Xác Nhận</Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Controls:MetroWindow>

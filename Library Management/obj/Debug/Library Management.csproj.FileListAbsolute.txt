@@ -35,3 +35,42 @@ C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\Students.baml
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\StudentsInfo.g.cs
 C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\StudentsInfo.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Books.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\BooksInfo.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\BorrowBook.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\BorrowForm.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\MainWindow.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Students.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\StudentsInfo.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\App.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management_MarkupCompile.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management_MarkupCompile.lref
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\Library Management.exe.config
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\Library Management.exe
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\Library Management.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\ControlzEx.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\MahApps.Metro.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\ControlzEx.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\MahApps.Metro.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\MahApps.Metro.xml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\App.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Books.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\BooksInfo.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\BorrowBook.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\BorrowForm.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\MainWindow.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Students.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\StudentsInfo.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.g.resources
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library_Management.Properties.Resources.resources
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.csproj.GenerateResource.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.csproj.CopyComplete
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.exe
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\Library Management.csprojResolveAssemblyReference.cache

@@ -38,7 +38,7 @@ namespace Library_Management
             {
                 tbBookName.Text = Book.Book_Name;
                 tbBookAuthor.Text = Book.Book_Author;
-                tbBookInfo.Text = Book.Book_Author;
+                tbBookInfo.Text = Book.Book_Info;
             }
 
             setTitle();

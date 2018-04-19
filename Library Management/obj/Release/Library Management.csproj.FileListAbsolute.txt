@@ -1,0 +1,39 @@
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\Library Management.exe.config
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\Library Management.exe
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\Library Management.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\ControlzEx.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\MahApps.Metro.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\MahApps.Metro.IconPacks.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\ControlzEx.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\MahApps.Metro.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\MahApps.Metro.xml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\MahApps.Metro.IconPacks.pdb
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\bin\Release\MahApps.Metro.IconPacks.xml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.csprojResolveAssemblyReference.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Books.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\BooksInfo.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\BorrowBook.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\BorrowForm.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\MainWindow.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Students.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\StudentsInfo.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\App.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management_MarkupCompile.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management_MarkupCompile.lref
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\App.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Books.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\BooksInfo.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\BorrowBook.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\BorrowForm.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\MainWindow.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Students.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\StudentsInfo.baml
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.g.resources
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library_Management.Properties.Resources.resources
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.csproj.GenerateResource.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.csproj.CopyComplete
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.exe
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Release\Library Management.pdb

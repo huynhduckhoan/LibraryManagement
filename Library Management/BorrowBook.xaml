@@ -9,18 +9,19 @@
     <Grid>
         <Grid>
             <Border BorderBrush="Gainsboro" BorderThickness="1" Margin="5">
-                <ListView Margin="10" Name="lvUsers">
+                <ListView Margin="10" Name="lvBorrowBook">
                     <ListView.ContextMenu>
                         <ContextMenu>
-                            <MenuItem Header="Thêm lượt mượn" />
-                            <MenuItem Header="Đã trả sách" PreviewMouseLeftButtonDown="MenuItem_PreviewMouseLeftButtonDown" />
+                            <MenuItem x:Name="addBorrowBook" Header="Mươn sách" Click="BorrowBook_Click"/>
+                            <MenuItem x:Name="cusBook" Header="Đã trả sách" Click="cusBook_Click" />
                         </ContextMenu>
                     </ListView.ContextMenu>
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="Name" Width="auto" DisplayMemberBinding="{Binding Name}" />
-                            <GridViewColumn Header="Age" Width="auto" DisplayMemberBinding="{Binding Age}" />
-                            <GridViewColumn Header="Mail" Width="auto" DisplayMemberBinding="{Binding Mail}" />
+                            <GridViewColumn Header="Sinh Viên" Width="200" DisplayMemberBinding="{Binding Student_Name}" />
+                            <GridViewColumn Header="Sách mượn" Width="200" DisplayMemberBinding="{Binding Books_Name}"/>
+                            <GridViewColumn Header="Ngày mượn" Width="200"  DisplayMemberBinding="{Binding BorrowDate}" />
+                            <GridViewColumn Header="Ngày trả" Width="364"  DisplayMemberBinding="{Binding PaidDay}" />
                         </GridView>
                     </ListView.View>
                 </ListView>

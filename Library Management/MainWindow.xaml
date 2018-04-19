@@ -110,7 +110,7 @@
                     </StackPanel>
                 </ToggleButton>
             </Grid>
-            <Grid Grid.Column="3">
+            <!--<Grid Grid.Column="3">
                 <ToggleButton IsChecked="{Binding IsTransgress}">
                     <StackPanel>
                         <iconPacks:PackIconFontAwesome Width="54"
@@ -121,7 +121,7 @@
                         <Label Content="Vi Phạm" FontSize="12" HorizontalContentAlignment="Center" Foreground="White" />
                     </StackPanel>
                 </ToggleButton>
-            </Grid>
+            </Grid>-->
         </Grid>
         <!--#endregion-->
 

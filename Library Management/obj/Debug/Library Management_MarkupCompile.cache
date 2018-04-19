@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\obj\Debug\
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\obj\Debug\
 Library_Management
 none
 false
 DEBUG;TRACE
-C:\Users\Huynh Duc Khoan\My File\Library Management\Library Management\App.xaml
-62065672235
+C:\Users\Huynh Duc Khoan\Project\LibraryManagement\Library Management\App.xaml
+7777446871
 
-1122729181
-171457055612
-Books.xaml;BooksInfo.xaml;BorrowBook.xaml;MainWindow.xaml;Students.xaml;StudentsInfo.xaml;
+12-226297055
+17580175916
+Books.xaml;BooksInfo.xaml;BorrowBook.xaml;BorrowForm.xaml;MainWindow.xaml;Students.xaml;StudentsInfo.xaml;
 
 False
 
